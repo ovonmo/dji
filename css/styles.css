@@ -1,0 +1,53 @@
+.video-manuals {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card-content a:hover {
+    background-color: #0056b3;
+}
